@@ -1,0 +1,135 @@
+/* General Header Styling */
+header {
+    background-image: url('../images/bg1.png'); /* Sets the background image for the header */
+    background-position: center center; /* Centers the background image */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    height: 100vh; /* Makes the header take up the full viewport height */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #fff; /* Sets the background color of the navigation bar */
+    border-radius: 10px !important; /* Adds rounded corners */
+}
+
+/* Navigation Items */
+.nav-item {
+    color: #0a165e !important; /* Sets the text color */
+    font-weight: 500; /* Semi-bold font weight */
+    letter-spacing: -.01em; /* Adjusts spacing between letters */
+    font-size: 22px; /* Font size for navigation items */
+}
+
+/* Icon Styling */
+i {
+    font-size: 24px; /* Size of icons */
+    color: #0a165e; /* Icon color */
+}
+
+/* Buttons and Links Styling (Shared for Touch Links and Hero Buttons) */
+.touch a,
+.btns button {
+    align-items: center; /* Vertically aligns text and icons */
+    background-color: #2b4dff; /* Default background color */
+    border-radius: 6px; /* Rounded corners */
+    color: #fff !important; /* White text color */
+    display: inline-flex; /* Allows horizontal alignment */
+    font-family: Sora, sans-serif; /* Custom font */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Bold font weight */
+    letter-spacing: -.01em; /* Slightly tightened letter spacing */
+    line-height: 1; /* Consistent vertical spacing */
+    overflow: hidden; /* Ensures text doesn’t overflow */
+    padding: 22px 27.3px; /* Internal padding for buttons */
+    position: relative; /* For relative positioning within parent */
+    text-align: center; /* Centers text */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+    transform-style: preserve-3d; /* Preserves 3D transformations */
+    transition: all .4s ease-in-out; /* Smooth transition for hover effects */
+    white-space: nowrap; /* Prevents text wrapping */
+    width: fit-content; /* Adjusts button width dynamically */
+    z-index: 0; /* Keeps button at the base layer */
+}
+
+/* Hover Effect for Buttons and Links */
+.touch a:hover,
+.btns button:hover {
+    color: #fff; /* Ensures text color stays white */
+    background-color: #2b4dff; /* Dark blue hover color */
+}
+
+/* Brand Styling */
+.navbar-brand {
+    color: #0a165e; /* Brand text color */
+    font-size: 24px; /* Font size for the brand */
+    font-weight: 700; /* Bold font weight */
+}
+
+/* Button Container Styling */
+.btns {
+    gap: 20px; /* Space between buttons */
+    display: flex; /* Aligns buttons horizontally */
+}
+
+/* Special Button Styling */
+.btns .special {
+    background-color: #fff; /* White background */
+    color: #0a165e !important; /* Dark blue text color */
+}
+
+/* Special Button Hover Effect */
+.btns .special:hover {
+    background-color: #fff; /* Keeps the background white */
+    color: #0a165e !important; /* Keeps text dark blue */
+}
+
+/* Text Styling */
+h6 {
+    font-weight: 500; /* Semi-bold font weight */
+    margin-bottom: 15px; /* Space below the heading */
+    font-size: 20px; /* Font size */
+    color: #fff; /* White text color */
+}
+
+h1 {
+    color: #fff; /* White text color */
+    font-size: 50px; /* Large font size for the main heading */
+    letter-spacing: -.03em; /* Slightly tighter letter spacing */
+    line-height: 1.175em; /* Adjusts line height */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+}
+
+/* Hero Image Styling */
+.img-width {
+    width: 70%; /* Sets the width of the image */
+}
+
+/* Top Navigation Info Styling */
+.nav-info a,
+.nav-info i {
+    color: #fff; /* White text and icon color */
+    display: inline-block; /* Inline block for proper alignment */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 14px; /* Small font size */
+}
+
+.nav-info a {
+    font-weight: 500; /* Semi-bold font weight */
+    font-size: 14px; /* Ensures consistent font size for links */
+}
+
+.nav-info i {
+    padding-right: 5px; /* Space to the right of icons */
+    padding-left: 10px; /* Space to the left of icons */
+}
+
+/* Flexbox Alignment for Links */
+.links {
+    justify-content: space-around; /* Evenly spaces out links */
+    display: flex; /* Aligns links horizontally */
+}
+
+/* Top Navigation Info Container */
+.nav-info {
+    justify-content: space-between; /* Space between location and contact info */
+}
